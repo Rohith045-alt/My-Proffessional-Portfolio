@@ -24,7 +24,6 @@ export default function App() {
   const [showResumeModal, setShowResumeModal] = useState(false);
 
   const canvasRef = useRef(null);
-  const profileImgUrl = "/profile.png";
 
   // Loading animation simulation
   useEffect(() => {
