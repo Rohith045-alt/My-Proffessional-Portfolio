@@ -416,13 +416,13 @@ export default function App() {
             </div>
 
             <div className="pt-6 flex items-center justify-center lg:justify-start gap-6 text-slate-400">
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="p-3 rounded-full bg-slate-800/80 hover:bg-blue-600 hover:text-white border border-blue-500/30 transition-all shadow-md">
+              <a href="https://www.linkedin.com/in/rohith-g-william-445425375/" target="_blank" rel="noreferrer" className="p-3 rounded-full bg-slate-800/80 hover:bg-blue-600 hover:text-white border border-blue-500/30 transition-all shadow-md">
                 <FaLinkedin className="w-5 h-5" />
               </a>
-              <a href="https://github.com" target="_blank" rel="noreferrer" className="p-3 rounded-full bg-slate-800/80 hover:bg-blue-600 hover:text-white border border-blue-500/30 transition-all shadow-md">
+              <a href="https://github.com/Rohith045-alt" target="_blank" rel="noreferrer" className="p-3 rounded-full bg-slate-800/80 hover:bg-blue-600 hover:text-white border border-blue-500/30 transition-all shadow-md">
                 <FaGithub className="w-5 h-5" />
               </a>
-              <a href="mailto:rohithwilliam@example.com" className="p-3 rounded-full bg-slate-800/80 hover:bg-blue-600 hover:text-white border border-blue-500/30 transition-all shadow-md">
+              <a href="mailto:rohithwilliam2005@gmail.com" className="p-3 rounded-full bg-slate-800/80 hover:bg-blue-600 hover:text-white border border-blue-500/30 transition-all shadow-md">
                 <Mail className="w-5 h-5" />
               </a>
             </div>
