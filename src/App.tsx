@@ -411,7 +411,7 @@ export default function App() {
 
               <a href="public/resume.pdf" download="Rohith_William_G_Resume.pdf" onMouseEnter={() => setCursorHovered(true)} onMouseLeave={() => setCursorHovered(false)} className="px-8 py-4 rounded-xl bg-slate-800/80 hover:bg-slate-700/80 text-cyan-400 border border-blue-500/40 font-semibold shadow-[0_0_15px_rgba(34,211,238,0.2)] transform hover:-translate-y-1 transition-all flex items-center gap-2 backdrop-blur-md">
                 <Download className="w-5 h-5" />
-                <span>Download Resume va download pannu</span>
+                <span>Download Resume</span>
               </a>
             </div>
 
@@ -442,7 +442,7 @@ export default function App() {
               {/* Profile Image Frame */}
               <div className="relative w-64 h-64 sm:w-84 sm:h-84 rounded-full p-2 bg-gradient-to-tr from-blue-600 via-cyan-400 to-blue-700 shadow-[0_0_50px_rgba(37,99,235,0.6)]">
                 <img 
-                  src="public/profile.png" 
+                  src={`${import.meta.env.BASE_URL}profile.png`} 
                   alt="Rohith William G" 
                   className="w-full h-full object-cover rounded-full bg-[#0F172A]"
                 />
